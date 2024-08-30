@@ -1,0 +1,245 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+:root{
+  --font-color: black;
+  --highlight-color: #00a5ce;
+  --secondary-color: #868f95;
+  --header-bg-color: #B8E6F1;
+  --footer-bg-color: #BFC0C3;
+  --table-img-bg-color: #BFC0C3;
+  --gap-size: 10px;
+}
+
+@page{
+  size:A4;
+  margin:0;
+  @top-left{
+    content:element(header);
+  }
+  @bottom-left{
+    content:element(footer);
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+
+html body{
+  margin:0;
+  margin-top: 0;
+  padding:0;
+  color:var(--font-color);
+  font-family:'Arimo', sans-serif;
+  font-size:14px;
+}
+
+a{
+  color:inherit;
+  text-decoration:none;
+}
+
+hr{
+  margin: 0.8cm 0;
+  height:0;
+  border:0;
+  border-top:1mm solid var(--highlight-color);
+}
+
+
+header{
+  height:4cm;
+  padding:10px;
+  margin:20px 40px;
+  position:running(header);
+  background-size: cover;
+}
+.headerSection{
+  display: flex;
+  justify-content: space-between;
+}
+.borderC{
+  border: 0.5px solid #1a1919;
+  width: 200px;
+  margin-top: 10px;
+  margin-right: 20px;
+  text-align: center;
+  color: #3d3d3e;
+  font-size: 14px;
+}
+
+.w100{
+  width: 100%;
+}
+
+.w66{
+  width:66%;
+}
+
+.w50{
+  width:50%;
+}
+
+.w33{
+  width:33%;
+}
+
+.centerDocument{
+ display: flex;
+justify-content: center;
+}
+.containerPdf{
+  width: 85%;
+}
+.left{
+  width: 30%;
+  text-align: start;
+}
+.right{
+  width: 70%;
+  text-align: start;
+}
+.clientTable {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+.clientTable th, .clientTable td {
+  padding: 2px;
+  font-family:'Arimo', sans-serif;
+  font-size:10px;
+}
+.dataClienteTable{
+  display: flex;
+}
+.table1{
+  width: 60%;
+  margin: 2px;
+}
+.table2{
+  width: 40%;
+  margin: 2px;
+}
+
+.clientTable2 {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+.clientTable2 th {
+  border: 0.5px solid #1a1919;
+  padding: 6px;
+  font-family:'Arimo', sans-serif;
+  font-size:12px;
+  background-color: #3d3d3e;
+  text-align: left;
+  color: white;
+}
+.clientTable2 td{
+  padding: 6px;
+  font-family:'Arimo', sans-serif;
+  font-size:12px;
+}
+.cant{
+  width: 10%;
+  text-align: center;
+}
+.vu{
+  width: 15%;
+  text-align: center;
+  border: 0.5px solid #1a1919;
+}
+.vt{
+  width: 15%;
+  text-align: center;
+  border: 0.5px solid #1a1919;
+}
+.alt{
+  width: 60%;
+}
+.color{
+  background-color: #3d3d3e;
+  color: white;
+}
+.border{
+  border: 0.5px solid #1a1919;
+}
+.section_escala{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  line-height: 0px;
+  margin: 0;
+  padding-top: 0;
+}
+.pfeedback{
+  line-height: 3px;
+  padding: 0px;
+}
+.text_escala{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+
+}
+
+.escala {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  padding-bottom: 10px;
+}
+
+.descriptor{
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 0px;
+}
+
+.skills{
+  margin-bottom: 10px;
+}
+.feedback{
+  margin-bottom: 10px;
+  margin-top: 0px;
+  text-align: justify
+}
+
+.skills-inactive{
+  display: none;
+}
+
+.li-inactive1{
+  display: none;
+}
+.li-inactive2{
+  display: none;
+}
+.li-inactive3{
+  display: none;
+}
+
+.coma-inact{
+display: none;
+}
+.datosempresa{
+  display: flex;
+  margin-top: 200px;
+  border: 0.5px solid #1a1919;
+}
+.datosE{
+  font-size: 10px;
+  margin: 5px 30px;
+}
+.text-decoration{
+  text-decoration: underline;
+}
