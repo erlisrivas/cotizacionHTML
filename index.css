@@ -57,6 +57,10 @@ header{
   position:running(header);
   background-size: cover;
 }
+footer{
+  height:4cm;
+  padding:10px;
+}
 .headerSection{
   display: flex;
   justify-content: space-between;
@@ -90,6 +94,8 @@ header{
 .centerDocument{
  display: flex;
 justify-content: center;
+align-items: center;
+flex-direction: column;
 }
 .containerPdf{
   width: 85%;
@@ -115,6 +121,7 @@ justify-content: center;
 }
 .dataClienteTable{
   display: flex;
+  justify-content: center;
 }
 .table1{
   width: 60%;
@@ -233,8 +240,10 @@ display: none;
 }
 .datosempresa{
   display: flex;
-  margin-top: 200px;
   border: 0.5px solid #1a1919;
+  margin: 20px;
+align-self: end;
+
 }
 .datosE{
   font-size: 10px;
@@ -242,4 +251,8 @@ display: none;
 }
 .text-decoration{
   text-decoration: underline;
+}
+.space{
+  padding: 0 5px;
+  margin: 2px;
 }
