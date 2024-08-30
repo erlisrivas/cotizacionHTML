@@ -35,6 +35,13 @@ html body{
   color:var(--font-color);
   font-family:'Arimo', sans-serif;
   font-size:14px;
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 29.7cm;
+  box-sizing: border-box;
 }
 
 a{
@@ -60,6 +67,10 @@ header{
 footer{
   height:4cm;
   padding:10px;
+  display: flex;
+  border: 0.5px solid #1a1919;
+  margin: 20px;
+align-self: end;
 }
 .headerSection{
   display: flex;
@@ -91,11 +102,13 @@ footer{
   width:33%;
 }
 
-.centerDocument{
+main.centerDocument{
  display: flex;
-justify-content: center;
+justify-content: start;
 align-items: center;
 flex-direction: column;
+width: 100%;
+flex: 1;
 }
 .containerPdf{
   width: 85%;
@@ -238,13 +251,7 @@ flex-direction: column;
 .coma-inact{
 display: none;
 }
-.datosempresa{
-  display: flex;
-  border: 0.5px solid #1a1919;
-  margin: 20px;
-align-self: end;
 
-}
 .datosE{
   font-size: 10px;
   margin: 5px 30px;
