@@ -263,3 +263,6 @@ display: none;
   padding: 0 5px;
   margin: 2px;
 }
+.hidden{
+  display: none;
+}
